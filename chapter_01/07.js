@@ -13,7 +13,6 @@ Function.prototype.uncurrying = function() {
     }
 }
 
-
 //等价于push = Array.prototype.push.call
 var push = Array.prototype.push.uncurrying();
 var obj = {}

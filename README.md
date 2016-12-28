@@ -32,9 +32,9 @@
 *   [第十八章](https://github.com/snailTJ/javascript-design-pattern/tree/master/chapter_18) 观察者模式
 *   [第十九章](https://github.com/snailTJ/javascript-design-pattern/tree/master/chapter_19) 状态模式
 *   [第二十章](https://github.com/snailTJ/javascript-design-pattern/tree/master/chapter_20) 策略模式
-*   [第二十一章](https://github.com/snailTJ/javascript-design-pattern/tree/master/chapter_21) 职责链模式
-*   [第二十二章](https://github.com/snailTJ/javascript-design-pattern/tree/master/chapter_22) 命令模式
-*   [第二十三章](https://github.com/snailTJ/javascript-design-pattern/tree/master/chapter_23) 访问者模式
+*   [第二十一章](https://github.com/snailTJ/javascript-design-pattern/tree/master/chapter_21) 命令模式
+*   [第二十二章](https://github.com/snailTJ/javascript-design-pattern/tree/master/chapter_22) 访问者模式
+*   [第二十三章](https://github.com/snailTJ/javascript-design-pattern/tree/master/chapter_23) 职责链模式
 *   [第二十四章](https://github.com/snailTJ/javascript-design-pattern/tree/master/chapter_24) 中介者模式
 *   [第二十五章](https://github.com/snailTJ/javascript-design-pattern/tree/master/chapter_25) 备忘录模式
 *   [第二十六章](https://github.com/snailTJ/javascript-design-pattern/tree/master/chapter_26) 迭代器模式

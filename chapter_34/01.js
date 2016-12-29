@@ -130,3 +130,5 @@ waiter.when(first, second).done(function() {
 }).fail(function() {
   console.log('fail');
 })
+
+//留了一个问题?怎样才能运用等待者模式监听两个ajax请求成功,并且成功函数中获取到成功的值?

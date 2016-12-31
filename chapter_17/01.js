@@ -92,3 +92,5 @@ var RightAlert = function(data) {
 };
 // 继承原型方法
 RightAlert.prototype = new Alert();
+
+//这样的情况下我们就可以根据需求去继承基本类,然后扩展出的自己需求的提示框

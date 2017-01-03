@@ -5,6 +5,10 @@
  * 监听这些视图组件,并完成这些组件完成预期功能,这样的就是MVVM模式,但是需要我们对欧控制器层去做
  * 更复杂的封装(这里的控制器就是VM,就是视图模型层),
  */
+
+/**
+ * MVVM模式是对视图模型层的高度复用
+ */
 (function(window) {
   // 创建视图模型对象
   var VM = function() {
@@ -56,6 +60,9 @@
   window.VM = VM;
 })(window);
 
+/**
+ * eval('('+data+')')和new Function('return ('+data+')')()将json字符串转化为对象
+ */
 
 // 测试
 var demo = {

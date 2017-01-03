@@ -59,3 +59,4 @@
 *   [第三十九章](https://github.com/snailTJ/javascript-design-pattern/tree/master/chapter_39) MVC模式
 *   [第四十章](https://github.com/snailTJ/javascript-design-pattern/tree/master/chapter_40) MVP模式
 *   [第四十一章](https://github.com/snailTJ/javascript-design-pattern/tree/master/chapter_41) MVVM模式
+

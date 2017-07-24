@@ -12,9 +12,11 @@ if (!Function.prototype.bind) {
         var fTobind = this; //目标函数
         var fNOP = function() {};
         var fBound = function() {
+            //因为当返回一个函数的时候,函数内部this指向了window,这样会修改全局变量
+            //我们需要把这个this的指向重新指向目标函数
             return fTobind.apply(this instanceof fNOP ? this : oThis || this, args.concat(Array.prototype.slice.call(arguments)));
         };
-        // 为了让新生成的目标函数实例可以继承目标函数的方法
+        // 为了让新生成的目标函数实例可以继承目标函数的方法(利用一个空函数去承接,原型链继承)
         fNOP.prototype = this.prototype;
         fBound.prototype = new fNOP();
         return fBound; //绑定函数
